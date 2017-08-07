@@ -1,10 +1,22 @@
-[gd_resource type="TileSet" load_steps=2 format=1]
+[gd_resource type="TileSet" load_steps=14 format=1]
 
-[ext_resource path="res://data/images/walls/ne.png" type="Texture" id=1]
+[ext_resource path="res://data/images/walls/nw.png" type="Texture" id=1]
+[ext_resource path="res://data/images/walls/ne.png" type="Texture" id=2]
+[ext_resource path="res://data/images/walls/s.png" type="Texture" id=3]
+[ext_resource path="res://data/images/walls/sgate.png" type="Texture" id=4]
+[ext_resource path="res://data/images/walls/ngate.png" type="Texture" id=5]
+[ext_resource path="res://data/images/walls/sw.png" type="Texture" id=6]
+[ext_resource path="res://data/images/walls/se.png" type="Texture" id=7]
+[ext_resource path="res://data/images/walls/nsw.png" type="Texture" id=8]
+[ext_resource path="res://data/images/walls/nse.png" type="Texture" id=9]
+[ext_resource path="res://data/images/walls/nswe.png" type="Texture" id=10]
+[ext_resource path="res://data/images/walls/nwe.png" type="Texture" id=11]
+[ext_resource path="res://data/images/walls/swe.png" type="Texture" id=12]
+[ext_resource path="res://data/images/walls/n.png" type="Texture" id=13]
 
 [resource]
 
-0/name = "0"
+0/name = "ne"
 0/texture = ExtResource( 1 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
@@ -13,4 +25,112 @@
 0/navigation_offset = Vector2( 8, 8 )
 0/shape_offset = Vector2( 0, 0 )
 0/shapes = [  ]
+1/name = "nw"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 16, 16 )
+1/occluder_offset = Vector2( 8, 8 )
+1/navigation_offset = Vector2( 8, 8 )
+1/shape_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+2/name = "se"
+2/texture = ExtResource( 6 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 16, 16 )
+2/occluder_offset = Vector2( 8, 8 )
+2/navigation_offset = Vector2( 8, 8 )
+2/shape_offset = Vector2( 0, 0 )
+2/shapes = [  ]
+3/name = "sw"
+3/texture = ExtResource( 7 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 16, 16 )
+3/occluder_offset = Vector2( 8, 8 )
+3/navigation_offset = Vector2( 8, 8 )
+3/shape_offset = Vector2( 0, 0 )
+3/shapes = [  ]
+4/name = "nsw"
+4/texture = ExtResource( 8 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 16, 16 )
+4/occluder_offset = Vector2( 8, 8 )
+4/navigation_offset = Vector2( 8, 8 )
+4/shape_offset = Vector2( 0, 0 )
+4/shapes = [  ]
+5/name = "nse"
+5/texture = ExtResource( 9 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 16, 16 )
+5/occluder_offset = Vector2( 8, 8 )
+5/navigation_offset = Vector2( 8, 8 )
+5/shape_offset = Vector2( 0, 0 )
+5/shapes = [  ]
+6/name = "nswe"
+6/texture = ExtResource( 10 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 16, 16 )
+6/occluder_offset = Vector2( 8, 8 )
+6/navigation_offset = Vector2( 8, 8 )
+6/shape_offset = Vector2( 0, 0 )
+6/shapes = [  ]
+7/name = "nwe"
+7/texture = ExtResource( 11 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 16, 16 )
+7/occluder_offset = Vector2( 8, 8 )
+7/navigation_offset = Vector2( 8, 8 )
+7/shape_offset = Vector2( 0, 0 )
+7/shapes = [  ]
+8/name = "swe"
+8/texture = ExtResource( 12 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 16, 16 )
+8/occluder_offset = Vector2( 8, 8 )
+8/navigation_offset = Vector2( 8, 8 )
+8/shape_offset = Vector2( 0, 0 )
+8/shapes = [  ]
+9/name = "n"
+9/texture = ExtResource( 13 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 16, 16 )
+9/occluder_offset = Vector2( 8, 8 )
+9/navigation_offset = Vector2( 8, 8 )
+9/shape_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+10/name = "s"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 16, 16 )
+10/occluder_offset = Vector2( 8, 8 )
+10/navigation_offset = Vector2( 8, 8 )
+10/shape_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+11/name = "sgate"
+11/texture = ExtResource( 4 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 16, 16 )
+11/occluder_offset = Vector2( 8, 8 )
+11/navigation_offset = Vector2( 8, 8 )
+11/shape_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+12/name = "ngate"
+12/texture = ExtResource( 5 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 16, 16 )
+12/occluder_offset = Vector2( 8, 8 )
+12/navigation_offset = Vector2( 8, 8 )
+12/shape_offset = Vector2( 0, 0 )
+12/shapes = [  ]
 

@@ -22,6 +22,8 @@ collision/mask = 1
 occluder/light_mask = 1
 tile_data = IntArray(  )
 script/script = ExtResource( 2 )
+mapsize_x = 32
+mapsize_y = 32
 
 [node name="TileMap" type="TileMap" parent="."]
 
@@ -39,6 +41,6 @@ collision/bounce = 0.0
 collision/layers = 1
 collision/mask = 1
 occluder/light_mask = 1
-tile_data = IntArray(  )
+tile_data = IntArray( 65537, 0, 65538, 10, 65539, 10, 65540, 1, 131073, 9, 131076, 9, 196609, 9, 196612, 9, 262145, 2, 262146, 10, 262147, 11, 262148, 3 )
 
 
